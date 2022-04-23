@@ -27,7 +27,7 @@
   z-index: 100;
   background-color: #caf0f8;
   animation-duration: 2s;
-  animation-name: slidein;
+  animation-name: slidedown;
   animation-iteration-count: 1;
   animation-direction: alternate;
 }
@@ -57,19 +57,29 @@
   font-size: .75em;
   padding-left: 8em;
   padding-right: 8em;
-  animation-duration: 3s;
-  animation-name: slidein;
+  animation-duration: 2.4s;
+  animation-name: slideup;
   animation-iteration-count: 1;
   animation-direction: alternate;
 }
 
-@keyframes slidein {
+@keyframes slideup {
   from {
     margin-top: 100%;
   }
 
   to {
     margin-bottom: 0%;
+  }
+}
+
+@keyframes slidedown {
+  from {
+    margin-top: -100%;
+  }
+
+  to {
+    margin-bottom: 100%;
   }
 }
 
