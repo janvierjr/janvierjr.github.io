@@ -20,12 +20,16 @@
 }
 
 .hero {
-  position:fixed;
+  position: fixed;
   top: 0px;
   padding-top: 1.5em;
-  width:100%;
-  z-index:100;
+  width: 100%;
+  z-index: 100;
   background-color: #caf0f8;
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
 }
 
 #header-title {
@@ -53,6 +57,20 @@
   font-size: .75em;
   padding-left: 8em;
   padding-right: 8em;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
 }
 
 .tweets {
@@ -94,7 +112,3 @@
   background-color: #90e0ef;
   color: black;
 }
-
-
-
-
