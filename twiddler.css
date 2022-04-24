@@ -111,6 +111,8 @@
 .button {
   background-color: black;
   color: white;
+  font-weight: '600';
+  font-size: 1em;
   font-family: "Courier New", monospace;
   cursor: pointer;
   cursor: hand;
