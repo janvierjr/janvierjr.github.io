@@ -35,6 +35,7 @@
   animation-name: slidedown;
   animation-iteration-count: 1;
   animation-direction: alternate;
+  margin-bottom: 1em;
 }
 
 #header-title {
@@ -56,7 +57,7 @@
 }
 
 #body {
-  margin-top: 25em;
+  margin-top: 27em;
   background-color: #caf0f8;
   font-family: "Open sans", monospace;
   font-size: 1em;
