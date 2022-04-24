@@ -9,7 +9,7 @@ $(document).ready(() => {
     .insertBefore("#header-title");
 
   // create header title div to prependTo tweetButton
-  const $twiddlerTitle = $('#header').prepend('#twiddler | #WeWasteYourTime | #AndYouLoveUsForIt');
+  const $twiddlerTitle = $('#header').prepend('<div id="hashtags">#twiddler | #WeWasteYourTime | #AndYouLoveUsForIt</div>');
 
   // variable for twiddler icon in header
   const $twiddlerIcon = $('#twiddler-icon')
@@ -118,14 +118,7 @@ $(document).ready(() => {
      });
    });
 
-  // CREATE VISITOR prototype
-  // function Visitor(visitor) {
-  //   this.visitor = guest;
-  // }
 
-  // Visitor.prototype.visitor = function () {
-  //   return this.visitor;
-  // }
   
   // CREATE FORM to ALLOW USER TO TWEET a custom message 
   const userTweet = $('<form class="tweet-form"></form>').prependTo($twiddlerTitle)

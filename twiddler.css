@@ -9,6 +9,10 @@
   width: 50vw;
 }
 
+#hashtags {
+  margin-right: 15em;
+}
+
 #twiddler-icon {
   width: 2em;
   cursor: pointer;
@@ -55,8 +59,8 @@
   background-color: #caf0f8;
   font-family: "Open sans", monospace;
   font-size: .75em;
-  padding-left: 8em;
-  padding-right: 8em;
+  padding-left: 4em;
+  padding-right: 4em;
   animation-duration: 2.4s;
   animation-name: slideup;
   animation-iteration-count: 1;
