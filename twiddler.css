@@ -35,7 +35,7 @@
   animation-name: slidedown;
   animation-iteration-count: 1;
   animation-direction: alternate;
-  margin-bottom: 1em;
+  transition-timing-function: ease-in-out;
 }
 
 #header-title {
@@ -67,6 +67,7 @@
   animation-name: slideup;
   animation-iteration-count: 1;
   animation-direction: alternate;
+  transition-timing-function: ease-in-out;
 }
 
 @keyframes slideup {
